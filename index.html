@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourci - B2B Wholesale Platform</title>
+    <meta name="description" content="Professional B2B wholesale platform for businesses. Order products in bulk with competitive prices and international delivery.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .tagline {
+            font-size: 24px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .app-badge {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .app-badge img {
+            height: 50px;
+            transition: transform 0.3s;
+        }
+
+        .app-badge img:hover {
+            transform: scale(1.05);
+        }
+
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            margin: 40px 0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .feature p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            opacity: 0.9;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: opacity 0.3s;
+        }
+
+        footer a:hover {
+            opacity: 0.7;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 50px 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            color: white;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 36px;
+            }
+
+            .tagline {
+                font-size: 18px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">📦 Sourci</div>
+            <div class="tagline">Professional B2B Wholesale Platform</div>
+            <p style="font-size: 18px; margin-bottom: 30px;">Order wholesale products with confidence</p>
+            
+            <div class="app-badge">
+                <a href="https://apps.apple.com" target="_blank">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1" alt="Download on the App Store">
+                </a>
+            </div>
+        </header>
+
+        <div class="content">
+            <h2>Why Choose Sourci?</h2>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🛒</div>
+                    <h3>Thousands of Products</h3>
+                    <p>Browse extensive catalog of wholesale products across multiple categories</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3>Competitive Prices</h3>
+                    <p>Get the best wholesale prices with minimum order quantities from 10 pieces</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-Time Stock</h3>
+                    <p>Check product availability instantly with live inventory tracking</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🌍</div>
+                    <h3>International Delivery</h3>
+                    <p>Ship worldwide with flexible shipping options including DDP</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">💳</div>
+                    <h3>Flexible Payments</h3>
+                    <p>Multiple payment methods: Bank transfer, PayPal, Binance, and more</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Enterprise-grade security with encrypted transactions</p>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Products</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Currencies</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Secure</div>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 60px;">Product Categories</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">💻</div>
+                    <h3>Electronics</h3>
+                    <p>Computers, accessories, and tech products</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🪑</div>
+                    <h3>Office Furniture</h3>
+                    <p>Desks, chairs, and office equipment</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📝</div>
+                    <h3>Stationery</h3>
+                    <p>Paper, pens, and office supplies</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🍽️</div>
+                    <h3>Food & Beverages</h3>
+                    <p>Wholesale food and drink products</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🧹</div>
+                    <h3>Cleaning Products</h3>
+                    <p>Professional cleaning supplies</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">⚕️</div>
+                    <h3>Medical Equipment</h3>
+                    <p>Healthcare and medical supplies</p>
+                </div>
+            </div>
+
+            <div class="cta">
+                <h2>Ready to Start?</h2>
+                <p style="margin: 20px 0; font-size: 18px; color: #666;">Download Sourci today and transform your B2B purchasing</p>
+                <a href="https://apps.apple.com" class="cta-button">Download Now</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Sourci. All rights reserved.</p>
+            <div style="margin-top: 20px;">
+                <a href="support.html">Support</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
