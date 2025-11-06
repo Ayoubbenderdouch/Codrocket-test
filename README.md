@@ -1,4 +1,4 @@
-# Sourci Website - GitHub Pages Setup
+# Codrocket Website - GitHub Pages Setup
 
 Diese Dateien sind für GitHub Pages hosting vorbereitet.
 
